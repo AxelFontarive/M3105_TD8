@@ -14,7 +14,7 @@
         <ComboBox x:Name="ComboBox_Compte" HorizontalAlignment="Left" Margin="138,41,0,0" VerticalAlignment="Top" Width="120" Height="26"/>
         <TextBox x:Name="TextBox_Montant" HorizontalAlignment="Left" Height="26" Margin="138,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="Button_Annuler" Content="Annuler" Margin="10,0,0,10" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="75"/>
-        <Button x:Name="Button_Valider" Content="Valider" Margin="0,0,10,10" HorizontalAlignment="Right" Width="75" Height="20" VerticalAlignment="Bottom"/>
+        <Button x:Name="Button_Valider" Content="Valider" Margin="0,0,10,10" HorizontalAlignment="Right" Width="75" Height="20" VerticalAlignment="Bottom" Click="Button_Valider_Click"/>
 
     </Grid>
 </Window>

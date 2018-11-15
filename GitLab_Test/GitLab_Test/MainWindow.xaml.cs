@@ -25,5 +25,10 @@ namespace GitLab_Test
             // Ceci est un commentaire ajoué depuis GitHub !
             InitializeComponent();
         }
+
+        private void Button_Valider_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("click sur le bouton valider");
+        }
     }
 }
