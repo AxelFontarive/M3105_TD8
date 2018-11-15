@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GitLab_Test"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Banque de morts" Height="175" Width="290" ResizeMode="CanMinimize">
     <Grid>
-        
+        <Label Content="Opération à effectuer" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Compte" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="123"/>
+        <Label Content="Montant" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Width="123"/>
+        <ComboBox x:Name="ComboBox_Operation" HorizontalAlignment="Left" Margin="138,10,0,0" VerticalAlignment="Top" Width="120" Height="26"/>
+        <ComboBox x:Name="ComboBox_Compte" HorizontalAlignment="Left" Margin="138,41,0,0" VerticalAlignment="Top" Width="120" Height="26"/>
+        <TextBox x:Name="TextBox_Montant" HorizontalAlignment="Left" Height="26" Margin="138,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="Button_Annuler" Content="Annuler" Margin="10,0,0,10" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="75"/>
+        <Button x:Name="Button_Valider" Content="Valider" Margin="0,0,10,10" HorizontalAlignment="Right" Width="75" Height="20" VerticalAlignment="Bottom"/>
+
     </Grid>
 </Window>
