@@ -22,6 +22,7 @@ namespace GitLab_Test
     {
         public MainWindow()
         {
+            // Ceci est un commentaire ajoué depuis GitHub !
             InitializeComponent();
         }
     }
