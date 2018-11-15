@@ -23,6 +23,7 @@ namespace GitLab_Test
         public MainWindow()
         {
             InitializeComponent();
+            // He salut toi !
         }
     }
 }
